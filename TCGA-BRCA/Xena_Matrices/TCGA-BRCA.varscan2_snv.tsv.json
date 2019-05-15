@@ -1,0 +1,14 @@
+{"start_index":1,
+ "cohort":"GDC TCGA Breast Cancer (BRCA)",
+ "url":"https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160, https://api.gdc.cancer.gov/data/6c93f518-1956-4435-9806-37185266d248",
+ "dataSubType":"somatic mutation (SNPs and small INDELs)",
+ "dataProducer":"Genomic Data Commons",
+ "label":"VarScan2 Variant Aggregation and Masking",
+ "wrangling_procedure":
+ "Data from different samples is combined into mutationVector; \"Hugo_Symbol\", \"Chromosome\", \"Start_Position\", \"End_Position\", \"Reference_Allele\", \"Tumor_Seq_Allele2\", \"Tumor_Sample_Barcode\", \"HGVSp_Short\" and \"Consequence\" data are renamed accordingly and presented; \"dna_vaf\" data is added and is calculated by \"t_alt_count\"/\"t_depth\".",
+ "assembly":"hg38",
+ "PLATFORM":"Illumina",
+ "type":"mutationVector",
+ "wrangler":"Xena GDC ETL script",
+ "version":"05-15-2019"
+}

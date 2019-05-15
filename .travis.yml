@@ -1,0 +1,16 @@
+sudo: required
+language: python
+python:
+  - 3.7-dev
+  - 3.6
+  - 3.5
+  - 2.7
+notifications:
+  email: false
+
+script:
+  - python test.py
+
+before_install:
+  - pip install colorama
+  - pip install git+https://github.com/yunhailuo/xena-GDC-ETL

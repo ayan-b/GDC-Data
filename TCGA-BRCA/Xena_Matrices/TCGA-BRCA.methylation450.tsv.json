@@ -1,0 +1,16 @@
+{"cohort":"GDC TCGA Breast Cancer (BRCA)",
+ "min":0.00000,
+ "url":"https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160, https://api.gdc.cancer.gov/data/",
+ "dataSubType":"DNA methylation",
+ ":probeMap":"illuminaMethyl450_hg38_GDC",
+ "dataProducer":"Genomic Data Commons",
+ "label":"Illumina Human Methylation 450",
+ "max":1.00000,
+ "wrangling_procedure":
+ "Beta_value from the same sample but from different vials/portions/analytes/aliquotes is averaged; beta_value from different samples is combined into genomicMatrix.",
+ "PLATFORM":"Illumina Human Methylation 450",
+ "type":"genomicMatrix",
+ "wrangler":"Xena GDC ETL script",
+ "version":"05-15-2019",
+ "unit":"beta value"
+}

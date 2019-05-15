@@ -1,0 +1,14 @@
+{"cohort":"GDC TCGA Breast Cancer (BRCA)",
+ "url":"https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160, https://api.gdc.cancer.gov/data/",
+ "dataSubType":"stem loop expression",
+ "dataProducer":"Genomic Data Commons",
+ "label":"miRNA Expression Quantification",
+ "colNormalization":true,
+ "wrangling_procedure":
+ "RPM Data from the same sample but from different vials/portions/analytes/aliquotes is averaged; data from different samples is combined into genomicMatrix; all data is then log2(x+1) transformed.",
+ "PLATFORM":"Illumina",
+ "type":"genomicMatrix",
+ "wrangler":"Xena GDC ETL script",
+ "version":"05-15-2019",
+ "unit":"log2(RPM+1)"
+}
