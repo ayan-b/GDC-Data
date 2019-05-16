@@ -10,6 +10,6 @@
  "PLATFORM":"Affymetrix SNP 6.0",
  "type":"genomicSegment",
  "wrangler":"Xena GDC ETL script",
- "version":"05-15-2019",
+ "version":"05-16-2019",
  "unit":"log2(copy-number/2)"
 }
