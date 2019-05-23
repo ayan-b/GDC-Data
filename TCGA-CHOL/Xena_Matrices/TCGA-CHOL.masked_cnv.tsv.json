@@ -1,0 +1,15 @@
+{"start_index":1,
+ "cohort":"GDC TCGA Bile Duct Cancer (CHOL)",
+ "url":"https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160, https://api.gdc.cancer.gov/data/",
+ "dataSubType":"copy number",
+ "dataProducer":"Genomic Data Commons",
+ "label":"Masked Copy Number Segment",
+ "wrangling_procedure":
+ "Data from different samples is combined into genomicSegment; chromosome location and segment mean data are presented.",
+ "assembly":"hg38",
+ "PLATFORM":"Affymetrix SNP 6.0",
+ "type":"genomicSegment",
+ "wrangler":"Xena GDC ETL script",
+ "version":"05-22-2019",
+ "unit":"log2(copy-number/2)"
+}
